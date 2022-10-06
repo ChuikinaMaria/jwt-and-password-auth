@@ -29,7 +29,7 @@ async (email, password, done) => {
         }
         const validate = await user.isValidPassword(password);
         if (!validate) {
-            reutrn done(null, false, {message: 'Wrong Password'});
+            return done(null, false, {message: 'Wrong Password'});
         }
         return done(null, user, {message: 'Logged in Successfully'});
     } catch (error) {

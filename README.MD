@@ -1,0 +1,1 @@
+https://www.8host.com/blog/autentifikaciya-api-po-jwt-i-passport/
